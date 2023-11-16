@@ -129,6 +129,8 @@ export interface AuthorizationParameters {
   state?: string;
   ui_locales?: string;
 
+  uuid_key?: string;
+
   [key: string]: unknown;
 }
 
